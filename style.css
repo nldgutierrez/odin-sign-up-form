@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Odin";
+    src:
+        url(./fonts/norse-bold-webfont.woff2),
+        url(./fonts/norse-bold-webfont.woff);
+}
+
+* {
+    font-family: sans-serif, system-ui;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    position: relative;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 8px;
+
+    position: absolute;
+    width: 100%;
+    top: 10vw;
+}
+
+#brandmark {
+    width: 5vw;
+}
+
+#wordmark {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Odin", sans-serif, system-ui;
+    color: #fff;
+    font-size: 5vw;
+}
+
+.caption {
+    margin-bottom: 8px;
+}
+
+.caption > p {
+    font-size: 0.75rem;
+    text-align: center;
+    color: lightgray;
+}
+
+.caption a:link {
+    color: lightgray;
+}
